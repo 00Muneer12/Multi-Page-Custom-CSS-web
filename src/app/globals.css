@@ -59,34 +59,35 @@ footer p {
 /*Home Page style*/
 .hero {
   background-size: cover;
-  background-position: center;
+  background-position:center;
   height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   text-align: center;
-  color: red;
+  color: rgb(0, 0, 0);
   padding-left: 60px;
 }
 .hero h1 {
-  font-size: 56px;
-  text-shadow: 2px 2px 5px rgba (0,0,0,0.5)
+  font-size: 64px;
+  text-shadow: 2px 2px 5px rgba (0,0,0,0.9)
 }
 
 .hero p {
   font-size: 30px;
   margin-top: 10px
+  text-shadow: 1px 1px 3px rgba (0,0,0,0.7)
 }
 .hero button {
-  margin: 20px;
+  margin: 40px;
   padding: 10px 20px;
   background-color: #da5656;
   border: none;
-  font-weight: bold;
+  font-weight:bolder;
   border-radius: 5px;
   cursor: pointer;
   color: rgb(61, 4, 4);
-  transition:background-color 0.3s
+  transition:background-color 0.8s
 }
 .hero button:hover {
   background-color: rgb(92, 43, 224);

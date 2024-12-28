@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <div>
-        <section className='contact-form' style={{backgroundImage: "url(3.jpg)"}}>
+        <section className='contact-form' style={{backgroundImage: "url(4.jpg)"}}>
           <h2 className='fade-in'>Contact Us</h2>
           <form>
             <input type="text" placeholder="Full Name" required />
